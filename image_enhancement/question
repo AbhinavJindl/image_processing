@@ -1,0 +1,37 @@
+Implement the image enhancement operations/methods (including affine transformations, gray level transformations, histogram processing, filters, histogram processing, adaptive histogram equalization, etc. ).
+The Assignment to be done individually and not in groups.
+Image enhancement operations/methods that need to be implemented:
+·Image Resize (Corresponding Matlab command ==> L = imresize(I,1.5,'bilinear'); where is the Input Image matrix)
+·Other Affine Transformations including rotation, translation etc.
+·Image negatives
+·Log transformations
+·Power-law/Gamma Transformations
+·Piecewise linear transformation functions
+·Bitplane slicing
+·Image reconstruction given some tie points
+·Histogram equalization
+·Adaptive histogram equalization
+·Histogram matching
+(As far as intensity values computation using interpolation is concerned, you are expected to have option for both nearest neighborhood and bilinear)
+
+Program
+Programming language – C/C++ and you may use openCV for reading/writing images but you are not allowed to use inbuilt operations /direct-functionalities for these taksk. Later compare the results of your functions with the results obtained using OpenCV library functionalities for these operations. For such comparison, you may report RMSE / PSNR.
+
+
+There should be only one .cpp file (and not multiple .cpp files)
+Filename shall be in the format as follows: a2_<Name>_<rollno>.cpp (For e.g. a2_Ramesh_2016CSB1000.cpp ..)
+
+
+Report:
+There shall be one .doc or .pdf file showing the input image, outpage etc. corresponding to different image enhancement operations/methods. Also include the description of parameters chosen and any specific observations made. You may include atmost two example input figures (and their corresponding output images and/or graphs) for one operation.
+For methods for which the output could be computed using inbuilt OpenCV library functions, mention that inbuilt OpenCV library function, show the corresponding output and also include RMSE.
+Filename shall again be in format as follows: A2_<Name>_<rollno>.doc or .docx or .pdf (.odt Not allowed)
+Include a README.txt mentioning in brief steps for running your program and any other comments from your side.
+Final submission should be just one file in the .tar.gz format as follows: a2_<Name>_<rollno>.tar.gz (or .tgz)
+More details (if needed) would be shared soon. Feel free to let me know if you need any further clarification.
+Unless you state otherwise, it is implicitly assumed that you coded yourself without any help from your friends/colleagues/relatives/superiors/online-resources. If you take some help, you must mention that explicitly in READMe and as well as in your C-code comments. Plagiarism related polices as per Institute rules will be applicable.
+Its quite a bit of work. So get going. 
+Deadline to submit: 6th Feb Tuesday 23:59pm
+
+There is penalty for late submission: -2% for each 1 hour late.
+There is reward for early submissions : + 2 % for each 24 hours earlier. (Max 10% reward)
